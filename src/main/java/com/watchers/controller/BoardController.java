@@ -1,4 +1,4 @@
-package com.watchers;
+package com.watchers.controller;
 
 import com.watchers.model.Board;
 import com.watchers.model.CommonResponse;
@@ -55,6 +55,12 @@ public class BoardController {
     public String delBoard(@RequestParam(value="idx") int idx){
 //        boardService.del(idx);
         return "redirect:/list/{page}";
+    }
+
+    @RequestMapping(value="/del/{idx}", method=RequestMethod.GET)
+    public String delBoard(@RequestParam(value="idx") Board idx){
+        boardService.del(idx);
+        return "redirect:/list/{page";
     }
 
 }

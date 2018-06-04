@@ -10,7 +10,7 @@ import java.util.Map;
 
 @Service
 public class UserService {
-    // ?
+
     @Autowired
     private UserMapper userMapper;
 
@@ -32,6 +32,9 @@ public class UserService {
     		userMapper.addUser(param);
     }
 
+    public boolean getById(String id){
+        return (userMapper.getById(id)!= null);
+    }
 
     
 }

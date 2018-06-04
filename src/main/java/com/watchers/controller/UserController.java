@@ -1,4 +1,4 @@
-package com.watchers;
+package com.watchers.controller;
 
 
 import com.watchers.model.CommonResponse;

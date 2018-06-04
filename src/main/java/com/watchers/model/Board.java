@@ -1,7 +1,6 @@
 package com.watchers.model;
 
 import java.sql.Timestamp;
-
 public class Board {
 	private int idx;
 	private String id;
@@ -76,7 +75,7 @@ public class Board {
 	public void setCreatedId(String createdId) {
 		this.createdId = createdId;
 	}
-	
+
 	@Override
 	public String toString() {
 		return "id : "  + id  + "\n"+ "title : "+ title + " \n "  + "content : " + contents
