@@ -69,22 +69,16 @@
                     <a href="/main" class="nav-link">홈</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">걸음걸이 유사도 검사</a>
+                    <a href="/walking_check" class="nav-link">걸음걸이 유사도 검사</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">걸음걸이 영상 관리</a>
+                    <a href="/walking_manage" class="nav-link">걸음걸이 영상 관리</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">실종자 조회(현황)</a>
+                    <a href="/missing" class="nav-link">실종자 조회(현황)</a>
                 </li>
                 <li class="nav-item">
-                    <a href="login.html" class="nav-link">로그인</a>
-                </li>
-                <li class="nav-item">
-                    <a href="register.html" class="nav-link">회원가입</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact_list.html" class="nav-link">문의게시판</a>
+                    <a href="/contactlist" class="nav-link">문의게시판</a>
                 </li>
                 <li class="dropdown nav-item">
                     <a href="#pablo" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="material-icons">face</i> User </a
@@ -316,7 +310,7 @@
                 <h5 class="modal-title">정말 로그아웃 하시겠습니까?</h5>
             </div>
             <div class="modal-footer">
-                <a class="btn btn-link" href="main.html">Logout</a>
+                <a class="btn btn-link" href="/index">Logout</a>
                 <button type="button" class="btn btn-danger btn-link" data-dismiss="modal">Close</button>
             </div>
         </div>

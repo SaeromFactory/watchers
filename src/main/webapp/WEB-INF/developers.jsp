@@ -11,7 +11,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="../../resources/static/assets/img/footprint.png">
+    <link rel="icon" type="image/png" href="/assets/img/footprint.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
         WATCHERS
@@ -21,9 +21,9 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
-    <link href="../../resources/static/assets/css/material-kit.css?v=2.0.3" rel="stylesheet" />
+    <link href="/assets/css/material-kit.css?v=2.0.3" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="../../resources/static/assets/demo/demo.css" rel="stylesheet" />
+    <link href="/assets/demo/demo.css" rel="stylesheet" />
 </head>
 
 <body class="landing-page sidebar-collapse">
@@ -40,25 +40,25 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="main.html" class="nav-link">홈</a>
+                    <a href="/main" class="nav-link">홈</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">걸음걸이 유사도 검사</a>
+                    <a href="/walking_check" class="nav-link">걸음걸이 유사도 검사</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">걸음걸이 영상 관리</a>
+                    <a href="/walking_manage" class="nav-link">걸음걸이 영상 관리</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">실종자 조회(현황)</a>
+                    <a href="/missing" class="nav-link">실종자 조회(현황)</a>
                 </li>
                 <li class="nav-item">
-                    <a href="login.html" class="nav-link">로그인</a>
+                    <a href="/login" class="nav-link">로그인</a>
                 </li>
                 <li class="nav-item">
-                    <a href="register.html" class="nav-link">회원가입</a>
+                    <a href="/register" class="nav-link">회원가입</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact_list.html" class="nav-link">문의게시판</a>
+                    <a href="/contactlist" class="nav-link">문의게시판</a>
                 </li>
                 <li class="dropdown nav-item">
                     <a href="#pablo" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="material-icons">face</i> User </a>
@@ -129,7 +129,7 @@
                         <div class="team-player">
                             <div class="card card-plain">
                                 <div class="col-md-6 ml-auto mr-auto">
-                                    <img src="../../resources/static/assets/img/faces/avatar.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                                    <img src="/assets/img/faces/avatar.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                                 </div>
                                 <h4 class="card-title">Song Jeongju
                                     <br>
@@ -149,7 +149,7 @@
                         <div class="team-player">
                             <div class="card card-plain">
                                 <div class="col-md-6 ml-auto mr-auto">
-                                    <img src="../../resources/static/assets/img/faces/christian.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                                    <img src="/assets/img/faces/christian.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                                 </div>
                                 <h4 class="card-title">Moon Hyunji
                                     <br>
@@ -168,7 +168,7 @@
                         <div class="team-player">
                             <div class="card card-plain">
                                 <div class="col-md-6 ml-auto mr-auto">
-                                    <img src="../../resources/static/assets/img/faces/kendall.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
+                                    <img src="/assets/img/faces/kendall.jpg" alt="Thumbnail Image" class="img-raised rounded-circle img-fluid">
                                 </div>
                                 <h4 class="card-title">blabla
                                     <br>
@@ -189,7 +189,7 @@
         </div>
         <div class="gachonlogo">
             <p style="text-align:center;">
-                <img src="../../resources/static/assets/img/gachon.png" />
+                <img src="/assets/img/gachon.png" />
             </p>
         </div>
     </div>
@@ -202,7 +202,7 @@
                 <h5 class="modal-title">정말 로그아웃 하시겠습니까?</h5>
             </div>
             <div class="modal-footer">
-                <a class="btn btn-link" href="main.html">Logout</a>
+                <a class="btn btn-link" href="/index">Logout</a>
                 <button type="button" class="btn btn-danger btn-link" data-dismiss="modal">Close</button>
             </div>
         </div>
@@ -237,16 +237,16 @@
     </div>
 </footer>
 <!--   Core JS Files   -->
-<script src="../../resources/static/assets/js/core/jquery.min.js" type="text/javascript"></script>
-<script src="../../resources/static/assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="../../resources/static/assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
-<script src="../../resources/static/assets/js/plugins/moment.min.js"></script>
+<script src="/assets/js/core/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="/assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+<script src="/assets/js/plugins/moment.min.js"></script>
 <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
-<script src="../../resources/static/assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+<script src="/assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-<script src="../../resources/static/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<script src="/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-<script src="../../resources/static/assets/js/material-kit.js?v=2.0.3" type="text/javascript"></script>
+<script src="/assets/js/material-kit.js?v=2.0.3" type="text/javascript"></script>
 </body>
 
 </html>

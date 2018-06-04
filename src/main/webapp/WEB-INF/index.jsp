@@ -11,7 +11,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="../../resources/static/assets/img/footprint.png">
+    <link rel="icon" type="image/png" href="/assets/img/footprint.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>
         WATCHERS
@@ -21,9 +21,9 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
-    <link href="../../resources/static/assets/css/material-kit.css?v=2.0.3" rel="stylesheet" />
+    <link href="/assets/css/material-kit.css?v=2.0.3" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link href="../../resources/static/assets/demo/demo.css" rel="stylesheet" />
+    <link href="/assets/demo/demo.css" rel="stylesheet" />
 
     <style>
         .wrap {
@@ -65,25 +65,25 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a href="main.html" class="nav-link">홈</a>
+                    <a href="/index" class="nav-link">홈</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">걸음걸이 유사도 검사</a>
+                    <a href="/login" class="nav-link">걸음걸이 유사도 검사</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">걸음걸이 영상 관리</a>
+                    <a href="/login" class="nav-link">걸음걸이 영상 관리</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#pablo" class="nav-link">실종자 조회(현황)</a>
+                    <a href="/login" class="nav-link">실종자 조회(현황)</a>
                 </li>
                 <li class="nav-item">
-                    <a href="login.html" class="nav-link">로그인</a>
+                    <a href="/login" class="nav-link">로그인</a>
                 </li>
                 <li class="nav-item">
-                    <a href="register.html" class="nav-link">회원가입</a>
+                    <a href="/register" class="nav-link">회원가입</a>
                 </li>
                 <li class="nav-item">
-                    <a href="contact_list.html" class="nav-link">문의게시판</a>
+                    <a href="/login" class="nav-link">문의게시판</a>
                 </li>
             </ul>
         </div>
@@ -107,7 +107,7 @@
 
             <div class="col-sm-6 hidden-xs animation animated-item-4">
                 <div class="slider-img">
-                    <img src="../../resources/static/assets/img/footprint3.png" class="img-responsive" style="margin-left:70px; margin-top:40px;">
+                    <img src="/assets/img/footprint3.png" class="img-responsive" style="margin-left:70px; margin-top:40px;">
                 </div>
             </div>
         </div>
@@ -155,7 +155,7 @@
     <div class="container" style="display:flex;">
         <div class="col-md-6">
             <h2>About WATCHERS</h2>
-            <img src="../../resources/static/assets/img/about.JPG" class="img-responsive" />
+            <img src="/assets/img/about.JPG" class="img-responsive" />
         </div>
         <div class="col-md-6" style="margin-top:90px;">
             <p>수분에 취약하고, 외부 요인에 의해 소실 될 수 있는 지문인식의 문제점으로, 개개인마다 다른 걸음걸이를 이용한 생체 인식 기술이 필요합니다.
@@ -174,21 +174,21 @@
     </div>
     <div class="container" style="display:flex;">
         <div class="col-md-4">
-            <img src="../../resources/static/assets/img/update.jpg" class="img-responsive" />
+            <img src="/assets/img/update.jpg" class="img-responsive" />
             <h4>Version 0.9</h4>
             <p>걸음걸이 인식과 보행자 정보 등록 (베타 버전)
             </p>
         </div>
 
         <div class="col-md-4">
-            <img src="../../resources/static/assets/img/update.jpg" class="img-responsive" class="img-responsive" />
+            <img src="/assets/img/update.jpg" class="img-responsive" class="img-responsive" />
             <h4>Version 1.0</h4>
             <p>걸음걸이 저장, 보행자 인식, 실종자 공공 데이터 업로드 완료
             </p>
         </div>
 
         <div class="col-md-4">
-            <img src="../../resources/static/assets/img/update.jpg" class="img-responsive" class="img-responsive" />
+            <img src="/assets/img/update.jpg" class="img-responsive" class="img-responsive" />
             <h4>Version 1.3</h4>
             <p> 오류 수정
             </p>
@@ -201,17 +201,17 @@
         <h2>Developers</h2>
         <div class="text-center" style="display:flex;">
             <div class="col-md-4">
-                <img class="img-circle" src="../../resources/static/assets/img/faces/avatar.jpg" alt="">
+                <img class="img-circle" src="/assets/img/faces/avatar.jpg" alt="">
                 <h3>Song Jeongju</h3>
                 <h5>Web Designer, Kinect Developer</h5>
             </div>
             <div class="col-md-4">
-                <img class="img-circle" src="../../resources/static/assets/img/faces/camp.jpg" alt="">
+                <img class="img-circle" src="/assets/img/faces/camp.jpg" alt="">
                 <h3>Moon Hyunji</h3>
                 <h5>Server Programmer, Data Manager</h5>
             </div>
             <div class="col-md-4">
-                <img class="img-circle" src="../../resources/static/assets/img/faces/christian.jpg" alt="">
+                <img class="img-circle" src="/assets/img/faces/christian.jpg" alt="">
                 <h3>blabla</h3>
                 <h5>kienct</h5>
             </div>
@@ -301,7 +301,7 @@
                 <h5 class="modal-title">정말 로그아웃 하시겠습니까?</h5>
             </div>
             <div class="modal-footer">
-                <a class="btn btn-link" href="main.html">Logout</a>
+                <a class="btn btn-link" href="/index">Logout</a>
                 <button type="button" class="btn btn-danger btn-link" data-dismiss="modal">Close</button>
             </div>
         </div>
@@ -338,19 +338,17 @@
         </div>
     </div>
 </footer>
-
 <!--   Core JS Files   -->
-<script src="../../resources/static/assets/js/core/jquery.min.js" type="text/javascript"></script>
-<script src="../../resources/static/assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="../../resources/static/assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
-<script src="../../resources/static/assets/js/plugins/moment.min.js"></script>
+<script src="/assets/js/core/jquery.min.js" type="text/javascript"></script>
+<script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="/assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
+<script src="/assets/js/plugins/moment.min.js"></script>
 <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
-<script src="../../resources/static/assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+<script src="/assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-<script src="../../resources/static/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<script src="/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
-<script src="../../resources/static/assets/js/material-kit.js?v=2.0.3" type="text/javascript"></script>
-
+<script src="/assets/js/material-kit.js?v=2.0.3" type="text/javascript"></script>
 </body>
 
 </html>
