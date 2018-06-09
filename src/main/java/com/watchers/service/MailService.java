@@ -19,8 +19,10 @@ public class MailService {
 
     public boolean sendMail(String title, String contents, String to){
       //  MimeMessage message = mailMapper.createMimeMessage();
+        final String email = "";
+        final String password = "";
         Properties  p= new Properties();
-        p.put("mail.smtp.user","poketred13@gmail.com");
+        p.put("mail.smtp.user",email);
         p.put("mail.smtp.host","smtp.gmail.com");
         p.put("mail.smtp.post","465");
         p.put("mail.smtp.starttls.enable","true");
@@ -36,7 +38,7 @@ public class MailService {
 
                 @Override
                 protected PasswordAuthentication getPasswordAuthentication() {
-                    PasswordAuthenticaction p = new PasswordAuthentication("poketred13@gmail.com","dltmdwn!@3");
+                    PasswordAuthentication p = new PasswordAuthentication(email,password);
                     return p;
                 }
             };
@@ -44,15 +46,10 @@ public class MailService {
             session.setDebug(true);
 
             MimeMessage msg = new MimeMessage(session);
-            String message = "Gmail SMTP";
             msg.setSubject(title);
-            msg.setFrom(new InternetAddress("poketred13@gmail.com"));
+            msg.setFrom(new InternetAddress("email"));
             msg.setRecipient(Message.RecipientType.TO,new InternetAddress(to));
-            BodyPart messageBodyPart = new MimeBodyPart();
-            messageBodyPart.setText(contents);
-            Multipart multipart = new MimeMultipart();
-            multipart.addBodyPart(messageBodyPart);
-            msg.setContent(multipart,"text/plain;charset=KSC5601");
+            msg.setText(contents);
             Transport.send(msg);
         }catch (Exception e){
             e.printStackTrace();
