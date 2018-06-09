@@ -19,10 +19,8 @@ public class MailService {
 
     public boolean sendMail(String title, String contents, String to){
       //  MimeMessage message = mailMapper.createMimeMessage();
-        final String email = "";
-        final String password = "";
         Properties  p= new Properties();
-        p.put("mail.smtp.user",email);
+        p.put("mail.smtp.user","poketred13@gmail.com");
         p.put("mail.smtp.host","smtp.gmail.com");
         p.put("mail.smtp.post","465");
         p.put("mail.smtp.starttls.enable","true");
@@ -38,7 +36,7 @@ public class MailService {
 
                 @Override
                 protected PasswordAuthentication getPasswordAuthentication() {
-                    PasswordAuthentication p = new PasswordAuthentication(email,password);
+                    PasswordAuthentication p = new PasswordAuthentication("jeongju1218@gmail.com","gkrwhd02");
                     return p;
                 }
             };
