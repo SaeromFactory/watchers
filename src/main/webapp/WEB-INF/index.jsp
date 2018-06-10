@@ -91,7 +91,7 @@
 </nav>
 
 
-<div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('../../resources/static/assets/img/bg2.jpg');">
+<div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('/assets/img/bg2.jpg');">
     <div class="container">
         <div class="row slide-margin">
             <div class="col-sm-6">
@@ -219,96 +219,6 @@
     </div>
 </section>
 
-<section id="contact-page">
-    <div class="container" style="margin-top:50px;">
-        <div class="center">
-            <h2>Contact Us</h2>
-            <p>고객센터에 메세지를 보내 궁금증을 해결하세요.</p>
-        </div>
-        <div class="contact-wrap">
-            <div class="status alert alert-success" style="display: none"></div>
-            <div class="col-md-6 col-md-offset-3">
-                <div id="sendmessage">감사합니다!</div>
-                <div id="errormessage"></div>
-                <form action="/contact_write" method="post" role="form" class="contactForm" onsubmit="return onWriteSubmit()">
-                    <div class="form-group">
-                        <input type="text" name="creator_name" class="form-control" id="creator_name" placeholder="이름" data-rule="text" data-msg="이름을 입력해주세요." required/>
-                        <div class="validation"></div>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="mail" id="mail" placeholder="이메일" data-rule="text" data-msg="이메일을 입력해주세요." required/>
-                        <div class="validation"></div>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="title" id="title" placeholder="제목" data-rule="text" data-msg="제목을 입력해주세요." required/>
-                        <div class="validation"></div>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="내용을 입력해주세요." placeholder="내용" required></textarea>
-                        <div class="validation"></div>
-                    </div>
-                    <div class="text-center"><button type="submit" name="submit" class="btn btn-primary btn-lg" required="required" style="margin-top: 20px;">메세지 보내기</button></div>
-                </form>
-
-                <script>
-                    function onWriteSubmit() {
-                        if ($("creator_name").val().trim() == "") {
-                            var message = "아이디를 입력해주세요";
-                            $("#creator_id").val("");
-                            $("#creator_id").focus();
-                            alert(message);
-                            return false;
-                        }
-                        if ($("#mail").val().trim() == "") {
-                            var message = "이메일을 입력해 주세요";
-                            $("#mail").val("");
-                            $("#mail").focus();
-                            alert(message);
-                            return false;
-                        }
-
-                        if ($("#title").val().trim() == "") {
-                            var message = "제목을 입력해 주세요";
-                            $("#title").val("");
-                            $("#title").focus();
-                            alert(message);
-                            return false;
-                        }
-
-                        if ($("#content").val().trim() == "") {
-                            var message = "본문 내용을 입력해 주세요";
-                            $("#content").val("");
-                            $("#content").focus();
-                            alert(message);
-                            return false;
-                        }
-                    }
-
-                </script>
-            </div>
-        </div>
-        <!--/.row-->
-    </div>
-    <!--/.container-->
-</section>
-<!--/#contact-page-->
-
-
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">정말 로그아웃 하시겠습니까?</h5>
-            </div>
-            <div class="modal-footer">
-                <a class="btn btn-link" href="/index">Logout</a>
-                <button type="button" class="btn btn-danger btn-link" data-dismiss="modal">Close</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
 
 <!--  End Modal -->
 <footer class="footer" data-background-color="black">
@@ -338,6 +248,7 @@
         </div>
     </div>
 </footer>
+
 <!--   Core JS Files   -->
 <script src="/assets/js/core/jquery.min.js" type="text/javascript"></script>
 <script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
@@ -349,6 +260,7 @@
 <script src="/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="/assets/js/material-kit.js?v=2.0.3" type="text/javascript"></script>
+
 </body>
 
 </html>

@@ -83,7 +83,7 @@
     </div>
 </nav>
 
-<div class="page-header header-filter" filter-color="purple" style="background-image: url('../../resources/static/assets/img/bg.jpg')">
+<div class="page-header header-filter" filter-color="purple" style="background-image: url('/assets/img/bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-md-10 ml-auto mr-auto">
@@ -225,8 +225,7 @@
         </div>
     </div>
 
-</div
-
+</div>
 <!--   Core JS Files   -->
 <script src="/assets/js/core/jquery.min.js" type="text/javascript"></script>
 <script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
@@ -241,3 +240,4 @@
 </body>
 
 </html>
+

@@ -98,7 +98,7 @@
 </nav>
 
 
-<div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('../../resources/static/assets/img/bg2.jpg');">
+<div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('/assets/img/bg2.jpg');">
     <div class="container">
         <div class="row slide-margin">
             <div class="col-sm-6">
@@ -323,12 +323,6 @@
         <nav class="float-left">
             <ul>
                 <li>
-                    <a href="developers.html">
-                        About Us
-                    </a>
-                </li>
-                </li>
-                <li>
                     <a href="https://www.gachon.ac.kr">
                         Gachon Univ.
                     </a>
@@ -340,11 +334,11 @@
             <script>
                 document.write(new Date().getFullYear())
 
-            </script>, made by
-            <a href="developers.html" target="_blank">WATCHERS</a> in gachon Univ.
+            </script>, made by WATCHERS in gachon Univ.
         </div>
     </div>
 </footer>
+
 <!--   Core JS Files   -->
 <script src="/assets/js/core/jquery.min.js" type="text/javascript"></script>
 <script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
@@ -356,6 +350,7 @@
 <script src="/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
 <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
 <script src="/assets/js/material-kit.js?v=2.0.3" type="text/javascript"></script>
+
 </body>
 
 </html>

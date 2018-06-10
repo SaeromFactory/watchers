@@ -72,7 +72,7 @@
     </div>
 </nav>
 
-<div class="page-header header-filter" data-parallax="true" style="background-image: url('../../resources/static/assets/img/bg.jpg')">
+<div class="page-header header-filter" data-parallax="true" style="background-image: url('/assets/img/bg.jpg')">
 </div>
 <div class="main main-raised">
     <div class="container">
