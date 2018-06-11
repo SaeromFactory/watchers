@@ -1,7 +1,7 @@
 <%--
   Created by IntelliJ IDEA.
   User: moonhyunji
-  Date: 2018. 6. 1.
+  Date: 2018. 6. 7.
   Time: PM 1:02
   To change this template use File | Settings | File Templates.
 --%>
@@ -34,6 +34,36 @@
         }
 
         #features {
+            font-size: 40px;
+            margin-top: 70px;
+            margin-bottom: 30px;
+            color: #fff;
+            padding: 50px;
+            background: #9c27b0;
+            border-radius: 50%;
+        }
+
+        #features2 {
+            font-size: 40px;
+            margin-top: 70px;
+            margin-bottom: 30px;
+            color: #fff;
+            padding: 50px;
+            background: #9c27b0;
+            border-radius: 50%;
+        }
+
+        #features3 {
+            font-size: 40px;
+            margin-top: 70px;
+            margin-bottom: 30px;
+            color: #fff;
+            padding: 50px;
+            background: #9c27b0;
+            border-radius: 50%;
+        }
+
+        #features4 {
             font-size: 40px;
             margin-top: 70px;
             margin-bottom: 30px;
@@ -83,7 +113,20 @@
                     <a href="/register" class="nav-link">회원가입</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/login" class="nav-link">문의게시판</a>
+                    <a href="/contactlist.jsp" class="nav-link">문의게시판</a>
+                </li>
+                <li class="dropdown nav-item">
+                    <a href="#pablo" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="material-icons">face</i> User </a>
+                    <div class="dropdown-menu">
+                        <h6 class="dropdown-header">Welcome
+                            jeongju :)</h6>
+                        <a href="/user_inf" class="dropdown-item">회원정보 조회</a>
+                        <a href="/user_del" class="dropdown-item">회원 탈퇴</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="/user_posts" class="dropdown-item">개인 게시글 관리</a>
+                        <div class="dropdown-divider"></div>
+                        <a data-toggle="modal" data-target="#myModal" class="dropdown-item">로그아웃</a>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -115,7 +158,7 @@
 </div>
 </div>
 </div>
-<!-- 	            end nav tabs -->
+<!--                end nav tabs -->
 
 <div class="back-clr" style="margin-top:250px; background-color:#fff;">
     <div class="container">
@@ -139,7 +182,7 @@
                 <h4>실종자 프로파일</h4>
                 <hr />
                 <p>데이터 마이닝을 이용한 실종자 빅데이터를 구축하였습니다.</p>
-            </div>ㄴ
+            </div>
             <div class="col-md-3">
                 <i class="fa fa-thumbs-up fa-3x icon-custom" id="features4"></i>
                 <h4>최적화된 프로그램</h4>
@@ -219,6 +262,96 @@
     </div>
 </section>
 
+<section id="contact-page">
+    <div class="container" style="margin-top:50px;">
+        <div class="center">
+            <h2>Contact Us</h2>
+            <p>고객센터에 메세지를 보내 궁금증을 해결하세요.</p>
+        </div>
+        <div class="contact-wrap">
+            <div class="status alert alert-success" style="display: none"></div>
+            <div class="col-md-6 col-md-offset-3">
+                <div id="sendmessage">감사합니다!</div>
+                <div id="errormessage"></div>
+                <form action="/contact_write" method="post" role="form" class="contactForm" onsubmit="return onWriteSubmit()">
+                    <div class="form-group">
+                        <input type="text" name="creator_name" class="form-control" id="creator_name" placeholder="이름" data-rule="text" data-msg="이름을 입력해주세요." required/>
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="mail" id="mail" placeholder="이메일" data-rule="text" data-msg="이메일을 입력해주세요." required/>
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="title" id="title" placeholder="제목" data-rule="text" data-msg="제목을 입력해주세요." required/>
+                        <div class="validation"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="내용을 입력해주세요." placeholder="내용" required></textarea>
+                        <div class="validation"></div>
+                    </div>
+                    <div class="text-center"><button type="submit" name="submit" class="btn btn-primary btn-lg" required="required" style="margin-top: 20px;">메세지 보내기</button></div>
+                </form>
+
+                <script>
+                    function onWriteSubmit() {
+                        if ($("creator_name").val().trim() == "") {
+                            var message = "아이디를 입력해주세요";
+                            $("#creator_id").val("");
+                            $("#creator_id").focus();
+                            alert(message);
+                            return false;
+                        }
+                        if ($("#mail").val().trim() == "") {
+                            var message = "이메일을 입력해 주세요";
+                            $("#mail").val("");
+                            $("#mail").focus();
+                            alert(message);
+                            return false;
+                        }
+
+                        if ($("#title").val().trim() == "") {
+                            var message = "제목을 입력해 주세요";
+                            $("#title").val("");
+                            $("#title").focus();
+                            alert(message);
+                            return false;
+                        }
+
+                        if ($("#content").val().trim() == "") {
+                            var message = "본문 내용을 입력해 주세요";
+                            $("#content").val("");
+                            $("#content").focus();
+                            alert(message);
+                            return false;
+                        }
+                    }
+
+                </script>
+            </div>
+        </div>
+        <!--/.row-->
+    </div>
+    <!--/.container-->
+</section>
+<!--/#contact-page-->
+
+
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">정말 로그아웃 하시겠습니까?</h5>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-link" href="/index">Logout</a>
+                <button type="button" class="btn btn-danger btn-link" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <!--  End Modal -->
 <footer class="footer" data-background-color="black">
@@ -254,7 +387,7 @@
 <script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="/assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
 <script src="/assets/js/plugins/moment.min.js"></script>
-<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+<!--   Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
 <script src="/assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
 <script src="/assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
