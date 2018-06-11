@@ -128,20 +128,20 @@
 
             </div>
             <div class="col-md-3">
-                <i class="fa fa-arrow-up fa-3x icon-custom" id="features"></i>
+                <i class="fa fa-arrow-up fa-3x icon-custom" id="features2"></i>
                 <h4>인식의 정확도 증가</h4>
                 <hr />
                 <p>기계학습을 통한 데이터로 걸음걸이 정확도를 향상시켰습니다.</p>
 
             </div>
             <div class="col-md-3">
-                <i class="fa fa-cloud fa-3x icon-custom" id="features"></i>
+                <i class="fa fa-cloud fa-3x icon-custom" id="features3"></i>
                 <h4>실종자 프로파일</h4>
                 <hr />
                 <p>데이터 마이닝을 이용한 실종자 빅데이터를 구축하였습니다.</p>
-            </div>
+            </div>ㄴ
             <div class="col-md-3">
-                <i class="fa fa-thumbs-up fa-3x icon-custom" id="features"></i>
+                <i class="fa fa-thumbs-up fa-3x icon-custom" id="features4"></i>
                 <h4>최적화된 프로그램</h4>
                 <hr />
                 <p>정확도가 향상된 시계열 데이터 분석으로 최적화된 프로파일링을 개발했습니다.</p>

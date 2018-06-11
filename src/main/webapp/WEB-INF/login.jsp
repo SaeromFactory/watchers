@@ -152,10 +152,10 @@
                             <i class="material-icons">face</i>
                           </span>
                     </div>
-                    <input type="text" name="user_name" id="user_name" placeholder="사용자 이름" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
+                    <input type="text" name="user_name"  placeholder="사용자 이름" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
                 </div>
                 <div style="text-align:center;">
-                    <input type="submit" id="find_id" value="아이디 찾기" class="btn btn-primary btn-round" href="/find_id" style="margin-top:32px;">
+                    <input type="submit"  value="아이디 찾기" class="btn btn-primary btn-round" href="/find_id" style="margin-top:32px;">
                 </div>
             </form>
         </div>
@@ -178,7 +178,7 @@
                             <i class="material-icons">account_circle</i>
                           </span>
                     </div>
-                    <input type="text" name="user_name" id="user_name" placeholder="사용자 아이디" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
+                    <input type="text" name="user_name"  placeholder="사용자 아이디" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
                 </div>
                 <div class="input-group" style="margin-top:20px;">
                     <div class="input-group-prepend">
@@ -186,7 +186,7 @@
                             <i class="material-icons">mail</i>
                           </span>
                     </div>
-                    <input type="text" name="user_name" id="user_name" placeholder="가입한 이메일" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px;">
+                    <input type="text" name="mail" id="mail" placeholder="가입한 이메일" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px;">
                     <a href="/sendmail" style="margin-left:20px;"> 인증번호 보내기 </a>
                 </div>
                 <div class="input-group" style="margin-top:20px;">
@@ -198,7 +198,7 @@
                     <input type="text" name="user_name" id="user_name" placeholder="인증번호 입력" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
                 </div>
                 <div style="text-align:center;">
-                    <input type="submit" id="find_pw" value="비밀번호 찾기" class="btn btn-primary btn-round" href="/find_pw" style="margin-top:32px;">
+                    <input type="submit"  value="비밀번호 찾기" class="btn btn-primary btn-round" href="/find_pw" style="margin-top:32px;">
                 </div>
             </form>
         </div>

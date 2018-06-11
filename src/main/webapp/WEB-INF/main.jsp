@@ -77,14 +77,20 @@
                     <a href="/missing" class="nav-link">실종자 조회(현황)</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/contactlist" class="nav-link">문의게시판</a>
+                    <a href="login.jsp" class="nav-link">로그인</a>
+                </li>
+                <li class="nav-item">
+                    <a href="register.jsp" class="nav-link">회원가입</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact_list.jsp" class="nav-link">문의게시판</a>
                 </li>
                 <li class="dropdown nav-item">
                     <a href="#pablo" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="material-icons">face</i> User </a>
                     <div class="dropdown-menu">
                         <h6 class="dropdown-header">Welcome
-                            <%=user.id%> :)</h6>
-                        <a href="/user_inf" class="dropdown-item">회원정보 조회</h6>
+                           jeongju :)</h6>
+                        <a href="/user_inf" class="dropdown-item">회원정보 조회</a>
                             <a href="/user_del" class="dropdown-item">회원 탈퇴</a>
                             <div class="dropdown-divider"></div>
                             <a href="/user_posts" class="dropdown-item">개인 게시글 관리</a>
@@ -135,20 +141,20 @@
 
             </div>
             <div class="col-md-3">
-                <i class="fa fa-arrow-up fa-3x icon-custom" id="features"></i>
+                <i class="fa fa-arrow-up fa-3x icon-custom" id="features2"></i>
                 <h4>인식의 정확도 증가</h4>
                 <hr />
                 <p>기계학습을 통한 데이터로 걸음걸이 정확도를 향상시켰습니다.</p>
 
             </div>
             <div class="col-md-3">
-                <i class="fa fa-cloud fa-3x icon-custom" id="features"></i>
+                <i class="fa fa-cloud fa-3x icon-custom" id="features3"></i>
                 <h4>실종자 프로파일</h4>
                 <hr />
                 <p>데이터 마이닝을 이용한 실종자 빅데이터를 구축하였습니다.</p>
             </div>
             <div class="col-md-3">
-                <i class="fa fa-thumbs-up fa-3x icon-custom" id="features"></i>
+                <i class="fa fa-thumbs-up fa-3x icon-custom" id="features4"></i>
                 <h4>최적화된 프로그램</h4>
                 <hr />
                 <p>정확도가 향상된 시계열 데이터 분석으로 최적화된 프로파일링을 개발했습니다.</p>

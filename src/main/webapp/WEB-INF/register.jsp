@@ -27,7 +27,7 @@
 
     <script type="text/javascript">
         window.onload = function() {
-            document.getElementById('form-register').onsubmit = function() {
+            document.getElementById('form-register').onsubmit = function () {
                 var user_pw = document.getElementById("user_pw").value;
                 var user_pw2 = document.getElementById("user_pw2").value;
 
@@ -38,6 +38,7 @@
                     return false;
                 }
             }
+        }
 
 
     </script>

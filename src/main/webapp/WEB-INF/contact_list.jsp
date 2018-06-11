@@ -58,8 +58,8 @@
                     <a href="#pablo" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="material-icons">face</i> User </a>
                     <div class="dropdown-menu">
                         <h6 class="dropdown-header">Welcome
-                            <%=user.id%> :)</h6>
-                        <a href="/user_inf" class="dropdown-item">회원정보 조회</h6>
+                            jeongju :)</h6>
+                        <a href="/user_inf" class="dropdown-item">회원정보 조회</a>
                             <a href="/user_del" class="dropdown-item">회원 탈퇴</a>
                             <div class="dropdown-divider"></div>
                             <a href="/user_posts" class="dropdown-item">개인 게시글 관리</a>
@@ -99,29 +99,22 @@
                                     <th>작성일</th>
                                     <th>변경일</th>
                                 </tr>
-                                <%
-                                    for(var i=0; i<rows.length; i++)
-                                    {
 
-                                        var oneItem = rows[i];
-                                %>
                                 <tr>
                                     <td>
-                                        <%=oneItem.idx%>
+                                        번호
                                     </td>
                                     <td>
-                                        <%=oneItem.creator_id%>
+                                        작성자
                                     </td>
                                     <td>
-                                        <a href="/contact_read/<%=oneItem.idx%>">
-                                            <%=oneItem.title%>
-                                        </a>
+                                        제목
                                     </td>
                                     <td>
-                                        <%=oneItem.regdate%>
+                                        조회수
                                     </td>
                                     <td>
-                                        <%=oneItem.modidate%>
+                                        작성일
                                     </td>
                                 </tr>
                                 <%
