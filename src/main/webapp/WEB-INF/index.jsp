@@ -115,19 +115,6 @@
                 <li class="nav-item">
                     <a href="/contactlist.jsp" class="nav-link">문의게시판</a>
                 </li>
-                <li class="dropdown nav-item">
-                    <a href="#pablo" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="material-icons">face</i> User </a>
-                    <div class="dropdown-menu">
-                        <h6 class="dropdown-header">Welcome
-                            jeongju :)</h6>
-                        <a href="/user_inf" class="dropdown-item">회원정보 조회</a>
-                        <a href="/user_del" class="dropdown-item">회원 탈퇴</a>
-                        <div class="dropdown-divider"></div>
-                        <a href="/user_posts" class="dropdown-item">개인 게시글 관리</a>
-                        <div class="dropdown-divider"></div>
-                        <a data-toggle="modal" data-target="#myModal" class="dropdown-item">로그아웃</a>
-                    </div>
-                </li>
             </ul>
         </div>
     </div>
