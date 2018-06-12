@@ -346,12 +346,6 @@
         <nav class="float-left">
             <ul>
                 <li>
-                    <a href="developers.html">
-                        About Us
-                    </a>
-                </li>
-                </li>
-                <li>
                     <a href="https://www.gachon.ac.kr">
                         Gachon Univ.
                     </a>
@@ -364,7 +358,7 @@
                 document.write(new Date().getFullYear())
 
             </script>, made by
-            <a href="/developers" target="_blank">WATCHERS</a> in gachon Univ.
+           WATCHERS in gachon Univ.
         </div>
     </div>
 </footer>

@@ -153,7 +153,7 @@
         <nav class="float-left">
             <ul>
                 <li>
-                    <a href="developers.html">
+                    <a href="/developers">
                         About Us
                     </a>
                 </li>
