@@ -64,8 +64,8 @@
                     <a href="#pablo" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="material-icons">face</i> User </a>
                     <div class="dropdown-menu">
                         <h6 class="dropdown-header">Welcome
-                            <%=user.id%> :)</h6>
-                        <a href="/user_inf" class="dropdown-item">회원정보 조회</h6>
+                           jeongju :)</h6>
+                        <a href="/user_inf" class="dropdown-item">회원정보 조회</a>
                             <a href="/user_del" class="dropdown-item">회원 탈퇴</a>
                             <div class="dropdown-divider"></div>
                             <a href="/user_posts" class="dropdown-item">개인 게시글 관리</a>
@@ -231,7 +231,7 @@
             <script>
                 document.write(new Date().getFullYear())
             </script>, made by
-            <a href="developers.html" target="_blank">WATCHERS</a> in gachon Univ.
+            <a href="/developers" target="_blank">WATCHERS</a> in gachon Univ.
         </div>
     </div>
 </footer>

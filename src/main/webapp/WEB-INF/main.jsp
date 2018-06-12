@@ -43,6 +43,36 @@
             border-radius: 50%;
         }
 
+        #features2 {
+            font-size: 40px;
+            margin-top: 70px;
+            margin-bottom: 30px;
+            color: #fff;
+            padding: 50px;
+            background: #9c27b0;
+            border-radius: 50%;
+        }
+
+        #features3 {
+            font-size: 40px;
+            margin-top: 70px;
+            margin-bottom: 30px;
+            color: #fff;
+            padding: 50px;
+            background: #9c27b0;
+            border-radius: 50%;
+        }
+
+        #features4 {
+            font-size: 40px;
+            margin-top: 70px;
+            margin-bottom: 30px;
+            color: #fff;
+            padding: 50px;
+            background: #9c27b0;
+            border-radius: 50%;
+        }
+
         h4 {
             font-family: 배달의민족 도현;
         }
@@ -77,25 +107,19 @@
                     <a href="/missing" class="nav-link">실종자 조회(현황)</a>
                 </li>
                 <li class="nav-item">
-                    <a href="login.jsp" class="nav-link">로그인</a>
-                </li>
-                <li class="nav-item">
-                    <a href="register.jsp" class="nav-link">회원가입</a>
-                </li>
-                <li class="nav-item">
-                    <a href="contact_list.jsp" class="nav-link">문의게시판</a>
+                    <a href="/contactlist" class="nav-link">문의게시판</a>
                 </li>
                 <li class="dropdown nav-item">
                     <a href="#pablo" class="dropdown-toggle nav-link" data-toggle="dropdown"><i class="material-icons">face</i> User </a>
                     <div class="dropdown-menu">
                         <h6 class="dropdown-header">Welcome
-                           jeongju :)</h6>
+                            jeongju :)</h6>
                         <a href="/user_inf" class="dropdown-item">회원정보 조회</a>
-                            <a href="/user_del" class="dropdown-item">회원 탈퇴</a>
-                            <div class="dropdown-divider"></div>
-                            <a href="/user_posts" class="dropdown-item">개인 게시글 관리</a>
-                            <div class="dropdown-divider"></div>
-                            <a data-toggle="modal" data-target="#myModal" class="dropdown-item">로그아웃</a>
+                        <a href="/user_del" class="dropdown-item">회원 탈퇴</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="/user_posts" class="dropdown-item">개인 게시글 관리</a>
+                        <div class="dropdown-divider"></div>
+                        <a data-toggle="modal" data-target="#myModal" class="dropdown-item">로그아웃</a>
                     </div>
                 </li>
             </ul>
@@ -347,7 +371,7 @@
                 document.write(new Date().getFullYear())
 
             </script>, made by
-            <a href="developers.html" target="_blank">WATCHERS</a> in gachon Univ.
+            <a href="/developers" target="_blank">WATCHERS</a> in gachon Univ.
         </div>
     </div>
 </footer>

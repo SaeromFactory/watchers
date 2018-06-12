@@ -117,9 +117,6 @@
                                         작성일
                                     </td>
                                 </tr>
-                                <%
-                                    }
-                                %>
                             </table>
                             <br/>
                             <button class="btn btn-primary btn-round" style="margin-top:20px;">
@@ -174,7 +171,7 @@
                 document.write(new Date().getFullYear())
 
             </script>, made by
-            <a href="developers.html" target="_blank">WATCHERS</a> in gachon Univ.
+            <a href="/developers" target="_blank">WATCHERS</a> in gachon Univ.
         </div>
     </div>
 </footer>

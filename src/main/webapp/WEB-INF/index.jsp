@@ -113,7 +113,7 @@
                     <a href="/register" class="nav-link">회원가입</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/contactlist.jsp" class="nav-link">문의게시판</a>
+                    <a href="/login" class="nav-link">문의게시판</a>
                 </li>
             </ul>
         </div>
@@ -364,7 +364,7 @@
                 document.write(new Date().getFullYear())
 
             </script>, made by
-            <a href="developers.html" target="_blank">WATCHERS</a> in gachon Univ.
+            <a href="/developers" target="_blank">WATCHERS</a> in gachon Univ.
         </div>
     </div>
 </footer>

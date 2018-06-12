@@ -42,6 +42,33 @@
             background: #9c27b0;
             border-radius: 50%;
         }
+        #features2 {
+            font-size: 40px;
+            margin-top: 70px;
+            margin-bottom: 30px;
+            color: #fff;
+            padding: 50px;
+            background: #9c27b0;
+            border-radius: 50%;
+        }
+        #features3 {
+            font-size: 40px;
+            margin-top: 70px;
+            margin-bottom: 30px;
+            color: #fff;
+            padding: 50px;
+            background: #9c27b0;
+            border-radius: 50%;
+        }
+        #features4 {
+            font-size: 40px;
+            margin-top: 70px;
+            margin-bottom: 30px;
+            color: #fff;
+            padding: 50px;
+            background: #9c27b0;
+            border-radius: 50%;
+        }
 
         h4 {
             font-family: 배달의민족 도현;

@@ -140,24 +140,25 @@
 <div class="modal fade" id="find_id" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content" style="padding:20px;">
-            <div class="modal-header">
-                <h5 class="modal-title">아이디를 까먹으셨습니까?</h5>
-                <h6 style="margin-top:15px;">- 사용자 이름으로 찾기</h6>
-            </div>
-            <hr style="color:#9c27b0;">
-            <form action="/find_id" method="post" class="find_id">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                            <span class="input-group-text">
+            <div style="border: 1.5px solid #9c27b0; border-radius:10px;">
+                <div class="modal-header">
+                    <h5 class="modal-title">아이디 찾기</h5>
+                    <h6 style="margin-top:15px;">- 사용자 이름으로 찾기</h6>
+                </div>
+                <form action="/find_id" method="post" class="find_id" style="margin-top:30px;">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                                <span class="input-group-text">
                             <i class="material-icons">face</i>
                           </span>
+                        </div>
+                        <input type="text" name="user_name" placeholder="사용자 이름" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
                     </div>
-                    <input type="text" name="user_name"  placeholder="사용자 이름" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
-                </div>
-                <div style="text-align:center;">
-                    <input type="submit"  value="아이디 찾기" class="btn btn-primary btn-round" href="/find_id" style="margin-top:32px;">
-                </div>
-            </form>
+                    <div style="text-align:center;">
+                        <input type="submit" value="아이디 찾기" class="btn btn-primary btn-round" href="/find_id" style="margin-top:32px;">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
@@ -166,41 +167,42 @@
 <div class="modal fade" id="find_pw" tabindex="-1" role="dialog">
     <div class="modal-dialog" role="document">
         <div class="modal-content" style="padding:20px;">
-            <div class="modal-header">
-                <h5 class="modal-title">비밀번호를 까먹으셨습니까?</h5>
-                <h6 style="margin-top:15px;">- 인증번호로 찾기</h6>
-            </div>
-            <hr style="color:#9c27b0;">
-            <form action="/find_id" method="post" class="find_id">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                            <span class="input-group-text">
+            <div style="border: 1.5px solid #9c27b0; border-radius:10px;">
+                <div class="modal-header">
+                    <h5 class="modal-title">비밀번호 찾기</h5>
+                    <h6 style="margin-top:15px;">- 인증번호로 찾기</h6>
+                </div>
+                <form action="/find_id" method="post" class="find_id" style="margin-top:30px;">
+                    <div class="input-group">
+                        <div class="input-group-prepend">
+                                <span class="input-group-text">
                             <i class="material-icons">account_circle</i>
                           </span>
+                        </div>
+                        <input type="text" name="user_name" placeholder="사용자 아이디" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
                     </div>
-                    <input type="text" name="user_name"  placeholder="사용자 아이디" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
-                </div>
-                <div class="input-group" style="margin-top:20px;">
-                    <div class="input-group-prepend">
-                            <span class="input-group-text">
+                    <div class="input-group" style="margin-top:20px;">
+                        <div class="input-group-prepend">
+                                <span class="input-group-text">
                             <i class="material-icons">mail</i>
                           </span>
+                        </div>
+                        <input type="text" name="mail" id="mail" placeholder="가입한 이메일" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px;">
+                        <a href="/sendmail" style="margin-left:20px;"> 인증번호 보내기 </a>
                     </div>
-                    <input type="text" name="mail" id="mail" placeholder="가입한 이메일" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px;">
-                    <a href="/sendmail" style="margin-left:20px;"> 인증번호 보내기 </a>
-                </div>
-                <div class="input-group" style="margin-top:20px;">
-                    <div class="input-group-prepend">
-                            <span class="input-group-text">
+                    <div class="input-group" style="margin-top:20px;">
+                        <div class="input-group-prepend">
+                                <span class="input-group-text">
                             <i class="material-icons">check</i>
                           </span>
+                        </div>
+                        <input type="text" name="user_name" id="user_name" placeholder="인증번호 입력" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
                     </div>
-                    <input type="text" name="user_name" id="user_name" placeholder="인증번호 입력" style="border-bottom: 1px solid #9c27b0; border-left: 0px; border-top: 0px; border-right: 0px; width:350px;">
-                </div>
-                <div style="text-align:center;">
-                    <input type="submit"  value="비밀번호 찾기" class="btn btn-primary btn-round" href="/find_pw" style="margin-top:32px;">
-                </div>
-            </form>
+                    <div style="text-align:center;">
+                        <input type="submit" value="비밀번호 찾기" class="btn btn-primary btn-round" href="/find_pw" style="margin-top:32px;">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </div>
@@ -220,3 +222,4 @@
 </body>
 
 </html>
+
